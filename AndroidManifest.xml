@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lxzh123.demo.testview"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<!-- android:theme="@style/AppTheme" -->
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.lxzh123.demo.testview.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.lxzh123.demo.buttonflash.ButtonFlashActivity"
+            android:label="@string/title_activity_button_flash" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.dialog.DialogActivity"
+            android:label="@string/title_activity_alert_dialog" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.viewflipper.ViewFlipperActivity"
+            android:label="@string/title_activity_view_flipper" >
+        </activity>
+                <activity
+            android:name="com.lxzh123.demo.pendingskip.PendingSkipActivity1"
+            android:label="PendingSkip1" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.pendingskip.PendingSkipActivity2"
+            android:label="PendingSkip2" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.pendingskip.PendingSkipActivity3"
+            android:label="PendingSkip3" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.pendingskip.PendingSkipActivity4"
+            android:label="PendingSkip4" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.activityskip.SkipActivity1"
+            android:label="SkipActivity1" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.activityskip.SkipActivity2"
+            android:label="SkipActivity2" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.apadterview.AdapterViewActivity"
+            android:label="AdapterView" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.cyclewheelview.CycleWheelViewActivity"
+            android:label="CycleWheelViewActivity" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.shape.ShapeViewActivity"
+            android:label="ShapeViewActivity" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.seekbar.SeekbarActivity"
+            android:label="SeekbarActivity" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.radiobutton.RadioButtonActivity"
+            android:label="RadioButtonActivity" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.viewpager.ViewPagerActivity"
+            android:label="@string/title_activity_view_page_demo" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.viewpager.ViewPagerActivity1"
+            android:label="@string/title_activity_view_page_demo" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.progressanim.ProgressAnimActivity"
+            android:label="@string/title_activity_progress_anim" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.progressanim.LxzhLoadingActivity"
+            android:label="@string/title_activity_loading" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.progressanim.RoundProgressBarActivity"
+            android:label="@string/title_activity_progress_anim" >
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.progressanim.ColorRoundProgressActivity"
+            android:label="@string/title_activity_color_round_progress">
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.lineartext.LinearTextActivity"
+            android:label="@string/title_activity_linear_text">
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.rotate1.Rotate3D1Activity"
+            android:label="@string/title_activity_rotate3d1">
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.rotate2.Rotate3D2Activity"
+            android:label="@string/title_activity_rotate3d2">
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.wechatbtn.WeChatButtonActivity"
+            android:label="@string/title_activity_wechatbtn">
+        </activity>
+        <activity
+            android:name="com.lxzh123.demo.switchview.SwitchViewActivity"
+            android:label="@string/title_activity_switchview">
+        </activity>
+    </application>
+
+</manifest>
