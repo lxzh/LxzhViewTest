@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="@drawable/dialogback">
+
+    <Button
+        android:id="@+id/btnDialogOk"
+        android:layout_width="170dp"
+        android:layout_height="66dp"
+        android:layout_x="60dp"
+        android:layout_y="30dp"
+        android:background="@drawable/dialog_ok"/>
+
+    <Button
+        android:id="@+id/btnDialogCancel"
+        android:layout_width="170dp"
+        android:layout_height="66dp"
+        android:layout_x="60dp"
+        android:layout_y="140dp"
+        android:background="@drawable/dialog_cancel" />
+
+</AbsoluteLayout>

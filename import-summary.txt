@@ -1,0 +1,267 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/workspace.xml
+* AndroidManifest.xml
+* README.md
+* app/
+* app/build.gradle
+* app/src/
+* app/src/main/
+* app/src/main/java/
+* app/src/main/java/com/
+* app/src/main/java/com/lxzh123/
+* app/src/main/java/com/lxzh123/demo/
+* app/src/main/java/com/lxzh123/demo/activityskip/
+* app/src/main/java/com/lxzh123/demo/activityskip/SkipActivity1.java
+* app/src/main/java/com/lxzh123/demo/activityskip/SkipActivity2.java
+* app/src/main/java/com/lxzh123/demo/apadterview/
+* app/src/main/java/com/lxzh123/demo/apadterview/AdapterViewActivity.java
+* app/src/main/java/com/lxzh123/demo/buttonflash/
+* app/src/main/java/com/lxzh123/demo/buttonflash/ButtonFlashActivity.java
+* app/src/main/java/com/lxzh123/demo/cyclewheelview/
+* app/src/main/java/com/lxzh123/demo/cyclewheelview/CycleWheelView.java
+* app/src/main/java/com/lxzh123/demo/cyclewheelview/CycleWheelViewActivity.java
+* app/src/main/java/com/lxzh123/demo/dialog/
+* app/src/main/java/com/lxzh123/demo/dialog/DialogActivity.java
+* app/src/main/java/com/lxzh123/demo/lineartext/
+* app/src/main/java/com/lxzh123/demo/lineartext/LinearTextActivity.java
+* app/src/main/java/com/lxzh123/demo/lineartext/LyricTextView.java
+* app/src/main/java/com/lxzh123/demo/pendingskip/
+* app/src/main/java/com/lxzh123/demo/pendingskip/PendingSkipActivity1.java
+* app/src/main/java/com/lxzh123/demo/pendingskip/PendingSkipActivity2.java
+* app/src/main/java/com/lxzh123/demo/pendingskip/PendingSkipActivity3.java
+* app/src/main/java/com/lxzh123/demo/pendingskip/PendingSkipActivity4.java
+* app/src/main/java/com/lxzh123/demo/progressanim/
+* app/src/main/java/com/lxzh123/demo/progressanim/ColorRoundProgressActivity.java
+* app/src/main/java/com/lxzh123/demo/progressanim/ColorRoundProgressBar.java
+* app/src/main/java/com/lxzh123/demo/progressanim/LoadingView.java
+* app/src/main/java/com/lxzh123/demo/progressanim/LxzhLoadingActivity.java
+* app/src/main/java/com/lxzh123/demo/progressanim/ProgressAnimActivity.java
+* app/src/main/java/com/lxzh123/demo/progressanim/RoundBar.java
+* app/src/main/java/com/lxzh123/demo/progressanim/RoundProgressBar.java
+* app/src/main/java/com/lxzh123/demo/progressanim/RoundProgressBarActivity.java
+* app/src/main/java/com/lxzh123/demo/progressanim/SuperLoadingProgress.java
+* app/src/main/java/com/lxzh123/demo/radiobutton/
+* app/src/main/java/com/lxzh123/demo/radiobutton/RadioButtonActivity.java
+* app/src/main/java/com/lxzh123/demo/rotate1/
+* app/src/main/java/com/lxzh123/demo/rotate1/Rotate3D1.java
+* app/src/main/java/com/lxzh123/demo/rotate1/Rotate3D1Activity.java
+* app/src/main/java/com/lxzh123/demo/rotate2/
+* app/src/main/java/com/lxzh123/demo/rotate2/CubeView.java
+* app/src/main/java/com/lxzh123/demo/rotate2/Rotate3D2Activity.java
+* app/src/main/java/com/lxzh123/demo/seekbar/
+* app/src/main/java/com/lxzh123/demo/seekbar/SeekbarActivity.java
+* app/src/main/java/com/lxzh123/demo/shape/
+* app/src/main/java/com/lxzh123/demo/shape/ShapeViewActivity.java
+* app/src/main/java/com/lxzh123/demo/switchview/
+* app/src/main/java/com/lxzh123/demo/switchview/LxzhScrollLayout.java
+* app/src/main/java/com/lxzh123/demo/switchview/OnViewChangeListener.java
+* app/src/main/java/com/lxzh123/demo/switchview/SwitchViewActivity.java
+* app/src/main/java/com/lxzh123/demo/testview/
+* app/src/main/java/com/lxzh123/demo/testview/MainActivity.java
+* app/src/main/java/com/lxzh123/demo/util/
+* app/src/main/java/com/lxzh123/demo/util/DswLog.java
+* app/src/main/java/com/lxzh123/demo/viewflipper/
+* app/src/main/java/com/lxzh123/demo/viewflipper/MyViewFlipper.java
+* app/src/main/java/com/lxzh123/demo/viewflipper/OnViewChangeListener.java
+* app/src/main/java/com/lxzh123/demo/viewflipper/ViewFlipperActivity.java
+* app/src/main/java/com/lxzh123/demo/viewpager/
+* app/src/main/java/com/lxzh123/demo/viewpager/ViewPagerActivity.java
+* app/src/main/java/com/lxzh123/demo/viewpager/ViewPagerActivity1.java
+* app/src/main/java/com/lxzh123/demo/wechatbtn/
+* app/src/main/java/com/lxzh123/demo/wechatbtn/WeChatButtonActivity.java
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* lint.xml
+* proguard-project.txt
+* res/
+* res/anim/
+* res/anim/hideimage.xml
+* res/anim/laoding2.xml
+* res/anim/laoding5.xml
+* res/anim/left_in.xml
+* res/anim/left_out.xml
+* res/anim/popup_anim_in.xml
+* res/anim/popup_anim_out.xml
+* res/anim/push_left_in.xml
+* res/anim/push_left_out.xml
+* res/anim/push_right_in.xml
+* res/anim/push_right_out.xml
+* res/anim/right_in.xml
+* res/anim/right_out.xml
+* res/anim/rotate.xml
+* res/anim/scalebutton.xml
+* res/anim/showimage.xml
+* res/drawable-hdpi/
+* res/drawable-hdpi/btn_red.9.png
+* res/drawable-hdpi/btn_red_down.9.png
+* res/drawable-hdpi/calculating_1.png
+* res/drawable-hdpi/calculating_2.png
+* res/drawable-hdpi/calculating_3.png
+* res/drawable-hdpi/calculating_4.png
+* res/drawable-hdpi/calculating_5.png
+* res/drawable-hdpi/calculating_6.png
+* res/drawable-hdpi/calculating_7.png
+* res/drawable-hdpi/calculating_8.png
+* res/drawable-hdpi/dialog_cancel.png
+* res/drawable-hdpi/dialog_ok.png
+* res/drawable-hdpi/dialogback.png
+* res/drawable-hdpi/guide01.9.png
+* res/drawable-hdpi/guide02.9.png
+* res/drawable-hdpi/guide03.9.png
+* res/drawable-hdpi/guide04.9.png
+* res/drawable-hdpi/guide05.9.png
+* res/drawable-hdpi/guide_dot_black.png
+* res/drawable-hdpi/guide_dot_white.png
+* res/drawable-hdpi/ic_action_search.png
+* res/drawable-hdpi/icon.png
+* res/drawable-hdpi/load1.png
+* res/drawable-hdpi/load2.png
+* res/drawable-hdpi/load3.png
+* res/drawable-hdpi/load4.png
+* res/drawable-hdpi/load5.png
+* res/drawable-hdpi/load6.png
+* res/drawable-hdpi/load7.png
+* res/drawable-hdpi/load8.png
+* res/drawable-hdpi/loading.png
+* res/drawable-hdpi/menu_bg.9.png
+* res/drawable-hdpi/pageloading_01.png
+* res/drawable-hdpi/pageloading_02.png
+* res/drawable-hdpi/pageloading_03.png
+* res/drawable-hdpi/pageloading_04.png
+* res/drawable-hdpi/pageloading_05.png
+* res/drawable-hdpi/pageloading_06.png
+* res/drawable-hdpi/progress.png
+* res/drawable-hdpi/r1.png
+* res/drawable-hdpi/r2.png
+* res/drawable-hdpi/r3.png
+* res/drawable-hdpi/r4.png
+* res/drawable-hdpi/r5.png
+* res/drawable-hdpi/r6.png
+* res/drawable-hdpi/r7.png
+* res/drawable-hdpi/r8.png
+* res/drawable-hdpi/rotate2.jpg
+* res/drawable-hdpi/syllabus_bg.jpg
+* res/drawable-hdpi/viewpagerpic.png
+* res/drawable/
+* res/drawable/app_list_corner_round.xml
+* res/drawable/app_list_corner_round_bottom.xml
+* res/drawable/app_list_corner_round_bottom_press.xml
+* res/drawable/app_list_corner_round_press.xml
+* res/drawable/app_list_corner_round_top.xml
+* res/drawable/app_list_corner_round_top_press.xml
+* res/drawable/background1.png
+* res/drawable/background2.png
+* res/drawable/background3.png
+* res/drawable/btn_red_selector.xml
+* res/drawable/guide_round.xml
+* res/drawable/pix.png
+* res/drawable/textview_bottom_selector.xml
+* res/drawable/textview_selector.xml
+* res/drawable/textview_top_selector.xml
+* res/layout/
+* res/layout/activityskip1.xml
+* res/layout/activityskip2.xml
+* res/layout/adapterview.xml
+* res/layout/alertdialog.xml
+* res/layout/buttonflash.xml
+* res/layout/cyclewheel.xml
+* res/layout/dialog_progresslay.xml
+* res/layout/item_cyclewheel.xml
+* res/layout/item_cyclewheel_custom.xml
+* res/layout/layout_activity_loading.xml
+* res/layout/layout_activity_progress_main.xml
+* res/layout/layout_activity_round_progress_container.xml
+* res/layout/layout_activity_switchview_main.xml
+* res/layout/layout_activity_wechatbtn_main.xml
+* res/layout/layout_dialog.xml
+* res/layout/layout_fragment_round_progress.xml
+* res/layout/layout_lineartext.xml
+* res/layout/layout_popmenu_wechatbtn.xml
+* res/layout/layout_rotate_main.xml
+* res/layout/layout_rotate_next.xml
+* res/layout/layout_round_progressbar.xml
+* res/layout/layout_viewpage_switchview.xml
+* res/layout/main.xml
+* res/layout/pendingskip1.xml
+* res/layout/pendingskip2.xml
+* res/layout/pendingskip3.xml
+* res/layout/pendingskip4.xml
+* res/layout/radiobutton.xml
+* res/layout/seekbar.xml
+* res/layout/shapetest.xml
+* res/layout/viewflipper.xml
+* res/layout/viewflipper_01.xml
+* res/layout/viewflipper_02.xml
+* res/layout/viewpage.xml
+* res/layout/viewpage1.xml
+* res/layout/viewpageitem1.xml
+* res/layout/viewpageitem2.xml
+* res/layout/viewpageitem3.xml
+* res/menu/
+* res/menu/main.xml
+* res/values-sw600dp/
+* res/values-sw600dp/dimens.xml
+* res/values-sw720dp-land/
+* res/values-sw720dp-land/dimens.xml
+* res/values-v11/
+* res/values-v11/styles.xml
+* res/values-v14/
+* res/values-v14/styles.xml
+* res/values/
+* res/values/attr.xml
+* res/values/color.xml
+* res/values/dimens.xml
+* res/values/strings.xml
+* res/values/styles.xml
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:26.0.0-alpha1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
