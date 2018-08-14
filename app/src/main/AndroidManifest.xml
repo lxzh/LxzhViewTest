@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.lxzh123.demo.testview.MainActivity"
+            android:name="com.lxzh123.demo.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +33,7 @@
             android:name="com.lxzh123.demo.viewflipper.ViewFlipperActivity"
             android:label="@string/title_activity_view_flipper" >
         </activity>
-                <activity
+        <activity
             android:name="com.lxzh123.demo.pendingskip.PendingSkipActivity1"
             android:label="PendingSkip1" >
         </activity>

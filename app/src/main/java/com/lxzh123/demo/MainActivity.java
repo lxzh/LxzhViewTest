@@ -1,4 +1,4 @@
-package com.lxzh123.demo.testview;
+package com.lxzh123.demo;
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -21,6 +21,7 @@ import com.lxzh123.demo.rotate2.Rotate3D2Activity;
 import com.lxzh123.demo.seekbar.SeekbarActivity;
 import com.lxzh123.demo.shape.ShapeViewActivity;
 import com.lxzh123.demo.switchview.SwitchViewActivity;
+import com.lxzh123.demo.testview.R;
 import com.lxzh123.demo.viewflipper.ViewFlipperActivity;
 import com.lxzh123.demo.viewpager.ViewPagerActivity;
 import com.lxzh123.demo.wechatbtn.WeChatButtonActivity;
@@ -48,7 +49,7 @@ public class MainActivity extends ListActivity{
             "Rotate2",
             "WeChatBtn",
             "SwitchView"};
-        ArrayAdapter<String> adapter=new ArrayAdapter<String>(this,R.layout.main,funcStr);
+        ArrayAdapter<String> adapter=new ArrayAdapter<String>(this, R.layout.main,funcStr);
         this.setListAdapter(adapter);
         this.getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
