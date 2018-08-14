@@ -24,6 +24,7 @@ import com.lxzh123.demo.switchview.SwitchViewActivity;
 import com.lxzh123.demo.testview.R;
 import com.lxzh123.demo.viewflipper.ViewFlipperActivity;
 import com.lxzh123.demo.viewpager.ViewPagerActivity;
+import com.lxzh123.demo.webview.WebviewActivity;
 import com.lxzh123.demo.wechatbtn.WeChatButtonActivity;
 
 public class MainActivity extends ListActivity{
@@ -48,7 +49,8 @@ public class MainActivity extends ListActivity{
             "Rotate1",
             "Rotate2",
             "WeChatBtn",
-            "SwitchView"};
+            "SwitchView",
+            "WebView"};
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(this, R.layout.main,funcStr);
         this.setListAdapter(adapter);
         this.getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -106,6 +108,9 @@ public class MainActivity extends ListActivity{
                         break;
                     case 16:
                         intent.setClass(MainActivity.this, SwitchViewActivity.class);
+                        break;
+                    case 17:
+                        intent.setClass(MainActivity.this, WebviewActivity.class);
                         break;
                     default:
                         return;
