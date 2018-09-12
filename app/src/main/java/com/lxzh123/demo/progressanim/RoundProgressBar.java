@@ -1,10 +1,5 @@
 package com.lxzh123.demo.progressanim;
 
-import java.util.Timer;
-import java.util.TimerTask;
-
-import com.lxzh123.demo.testview.R;
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -16,6 +11,11 @@ import android.os.Message;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.TextView;
+
+import com.lxzh123.demo.testview.R;
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class RoundProgressBar extends TextView{
 	
@@ -61,7 +61,6 @@ public class RoundProgressBar extends TextView{
 
 	 public RoundProgressBar(Context context, AttributeSet attrs) {
 		super(context, attrs);
-		// TODO Auto-generated constructor stub	
 		initParam();
 
         TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.RoundProgressBar);      
@@ -149,7 +148,6 @@ public class RoundProgressBar extends TextView{
         mHandler = new Handler()
 		{
 			public void handleMessage(Message msg) {
-				// TODO Auto-generated method stub				
 				if (msg.what == TIMER_ID)
 				{
 //					long now = System.currentTimeMillis();
@@ -249,7 +247,6 @@ public class RoundProgressBar extends TextView{
  
 	@Override
 	protected void onSizeChanged(int w, int h, int oldw, int oldh) {
-		// TODO Auto-generated method stub
 		super.onSizeChanged(w, h, oldw, oldh);
 
 		Log.i("", "W = " + w + ", H = " + h);
@@ -306,7 +303,6 @@ public class RoundProgressBar extends TextView{
 	}
 
 	public void onDraw(Canvas canvas) {
-		// TODO Auto-generated method stub
 		super.onDraw(canvas);
 
 		if (mBShowBottom)
@@ -326,7 +322,6 @@ public class RoundProgressBar extends TextView{
 	class MyTimerTask extends TimerTask{
 		@Override
 		public void run() {
-			// TODO Auto-generated method stub
 			Message msg = mHandler.obtainMessage(TIMER_ID);
 			msg.sendToTarget();	
 		}		
