@@ -12,6 +12,7 @@ import com.lxzh123.demo.apadterview.AdapterViewActivity;
 import com.lxzh123.demo.buttonflash.ButtonFlashActivity;
 import com.lxzh123.demo.cyclewheelview.CycleWheelViewActivity;
 import com.lxzh123.demo.dialog.DialogActivity;
+import com.lxzh123.demo.filltext.FillTextViewActivity;
 import com.lxzh123.demo.lineartext.LinearTextActivity;
 import com.lxzh123.demo.pendingskip.PendingSkipActivity1;
 import com.lxzh123.demo.progressanim.ProgressAnimActivity;
@@ -50,7 +51,8 @@ public class MainActivity extends ListActivity{
             "Rotate2",
             "WeChatBtn",
             "SwitchView",
-            "WebView"};
+            "WebView",
+            "FillTextView"};
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(this, R.layout.main,funcStr);
         this.setListAdapter(adapter);
         this.getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -111,6 +113,9 @@ public class MainActivity extends ListActivity{
                         break;
                     case 17:
                         intent.setClass(MainActivity.this, WebviewActivity.class);
+                        break;
+                    case 18:
+                        intent.setClass(MainActivity.this, FillTextViewActivity.class);
                         break;
                     default:
                         return;

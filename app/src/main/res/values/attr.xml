@@ -19,6 +19,14 @@
             <enum name="STROKE" value="0"></enum>  
             <enum name="FILL" value="1"></enum>  
         </attr>  
-    </declare-styleable>  
+    </declare-styleable>
+
+    <declare-styleable name="filled_text">
+        <attr name="filledText" format="string"></attr>
+        <attr name="fillTextSize" format="dimension"></attr>
+        <attr name="normalColor" format="color"></attr>
+        <attr name="fillColor" format="color"></attr>
+        <attr name="rowSpace" format="dimension"></attr>
+    </declare-styleable>
 </resources> 
 
