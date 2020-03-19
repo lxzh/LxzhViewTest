@@ -28,4 +28,63 @@
         <item name="android:windowExitAnimation">@anim/popup_anim_out</item>
     </style>
 
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="DialogLeft" parent="CustomDialog">
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimationLeft</item>
+    </style>
+    <style name="DialogTop" parent="CustomDialog">
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimationTop</item>
+    </style>
+    <style name="DialogRight" parent="CustomDialog">
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimationRight</item>
+    </style>
+    <style name="DialogBottom" parent="CustomDialog">
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimationBottom</item>
+    </style>
+    <style name="DialogCenter" parent="CustomDialog">
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimationCenter</item>
+    </style>
+
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimationLeft" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_left_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_left_dialog_out</item>
+    </style>
+    <style name="ActionSheetDialogAnimationTop" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_top_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_top_dialog_out</item>
+    </style>
+    <style name="ActionSheetDialogAnimationRight" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_right_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_right_dialog_out</item>
+    </style>
+    <style name="ActionSheetDialogAnimationBottom" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_bottom_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_bottom_dialog_out</item>
+    </style>
+    <style name="ActionSheetDialogAnimationCenter" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_center_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_center_dialog_out</item>
+    </style>
+
 </resources>

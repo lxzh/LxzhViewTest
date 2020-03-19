@@ -17,6 +17,7 @@
     <string name="title_activity_switchview">SwitchViewActivity</string>
     <string name="title_activity_webview">WebViewActivity</string>
     <string name="title_activity_filltextview">FillTextViewActivity</string>
+    <string name="title_activity_dialog">DialogTestActivity</string>
     <string name="clearUserInfo">清除用户信息</string>
     <string name="exitLogin">退出登录</string>
     <string name="showMenu">显示菜单</string>
